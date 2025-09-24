@@ -21,9 +21,4 @@ public class DebugBox {
         double vol = length * width * height;
         return vol;
     }
-     public static void main (String[] args) {
-        DebugBox db = new DebugBox();
-        db.showData();
-        System.out.println("Volume: " + db.getVolume());
-    }
 }
