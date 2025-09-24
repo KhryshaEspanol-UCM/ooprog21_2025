@@ -15,10 +15,4 @@ public class DebugPen {
     public String getPoint() {
         return point;
     }
-    public static void main(String[] args) {
-        DebugPen pen = new DebugPen();
-        System.out.println("Pen -> Color: " + pen.getColor() + 
-                            ", Point: " + pen.getPoint()
-                        );
-    }
 }
