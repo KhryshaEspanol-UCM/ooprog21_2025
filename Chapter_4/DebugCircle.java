@@ -18,4 +18,3 @@ public class DebugCircle {
         return area;
     }
 }
-
